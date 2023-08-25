@@ -2,6 +2,12 @@
 
 ## Vector Function Derivatives
 
+For vector-valued function:
+
+$$\mathbf{f}(x) = \begin{bmatrix}
+    f \\ g \\ h
+\end{bmatrix}$$
+
 $$\frac{d\mathbf{f}}{d x} = \begin{bmatrix}
     \frac{\partial f}{\partial x} \\
     \frac{\partial g}{\partial x} \\
@@ -11,6 +17,10 @@ $$\frac{d\mathbf{f}}{d x} = \begin{bmatrix}
 Pretty natural when you realize that $\mathbf{f}$ can be represented as a linear combination of basis vectors, where each coefficient is a scalar-by-scalar function.
 
 ## Multivariate Function Derivatives
+
+For multivariate function:
+
+$$f(\mathbf{x}) = f(x, y, z)$$
 
 $$\frac{d f}{d\mathbf{x}} = \begin{bmatrix}
     \frac{\partial f}{\partial x} & \frac{\partial f}{\partial y} & \frac{\partial f}{\partial z}
