@@ -49,11 +49,19 @@ This matrix is commonly referred to as **the Jacobian**.
 
 The del operator is a convenient notation for working with vector fields:
 
-$$\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$$
+$$\nabla = \begin{bmatrix}
+    \frac{\partial}{\partial x} \\
+    \frac{\partial}{\partial y} \\
+    \frac{\partial}{\partial z}
+\end{bmatrix}$$
 
 Gradient:
 
-$$\nabla f = \left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right) = \left(\frac{d f}{d \mathbf{x}}\right)^T$$
+$$\nabla f = \begin{bmatrix}
+    \frac{\partial f}{\partial x} \\
+    \frac{\partial f}{\partial y} \\
+    \frac{\partial f}{\partial z}
+\end{bmatrix} = \left(\frac{d f}{d \mathbf{x}}\right)^T$$
 
 Divergence:
 
